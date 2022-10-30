@@ -1,4 +1,4 @@
-import Authencation
+import Authentication
 import Dashboard
 import Event
 import Me
@@ -7,7 +7,7 @@ import SwiftUI
 @main
 struct AppMain: App {
 
-  let auth = Authencation()
+  let auth = Authentication()
   let dashboard = Dashboard()
   let event = Event()
   let me = Me()

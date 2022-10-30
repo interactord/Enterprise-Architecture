@@ -4,25 +4,25 @@
 import PackageDescription
 
 let package = Package(
-  name: "Me",
+  name: "Authentication",
   platforms: [.iOS(.v15)],
   products: [
     .library(
-      name: "Me",
-      targets: ["Me"]),
+      name: "Authentication",
+      targets: ["Authentication"]),
   ],
   dependencies: [
     .package(path: "../../Core/Domain"),
   ],
   targets: [
     .target(
-      name: "Me",
+      name: "Authentication",
       dependencies: [
         "Domain",
       ],
       resources: [
       ]),
     .testTarget(
-      name: "MeTests",
-      dependencies: ["Me"]),
+      name: "AuthenticationTests",
+      dependencies: ["Authentication"]),
   ])

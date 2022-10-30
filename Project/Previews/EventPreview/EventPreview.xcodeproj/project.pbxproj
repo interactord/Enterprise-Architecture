@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		2B5F3B317952F481F75989AD /* AppMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264BB6DEBA23FCCAFBDBD791 /* AppMain.swift */; };
+		3455624CD81BA34002E0D2F9 /* Platform in Frameworks */ = {isa = PBXBuildFile; productRef = DEF50BCAA9ED92026BDE6C24 /* Platform */; };
 		397FFCB29CCCA7BDF0DAD32A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 976C04E8F1E4F8447E6D75A1 /* Assets.xcassets */; };
 		763FCCA17C8B38CAA29B1591 /* EventPreviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2B90AE9104DDD6AFDBD742 /* EventPreviewTests.swift */; };
 		78927690D4F9B65B61E0CA9F /* TuistBundle+EventPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF75D75AF540FF0AE354CB7D /* TuistBundle+EventPreview.swift */; };
 		84FF0146B4955B851353FC0A /* dummy.json in Resources */ = {isa = PBXBuildFile; fileRef = 29ABD96C310C7E1BED216C1A /* dummy.json */; };
 		A141D4EE7C9F6D870B80274A /* Event in Frameworks */ = {isa = PBXBuildFile; productRef = E8985DCC9C5D6EA5EE34E3D1 /* Event */; };
 		BB9E4BCBFCB967196BADD8F5 /* TuistAssets+EventPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9E37570D9B40995B12B336 /* TuistAssets+EventPreview.swift */; };
+		FC66BF38D91C87E829303137 /* Domain in Frameworks */ = {isa = PBXBuildFile; productRef = 621A53DB1D485DAB39CF5AA6 /* Domain */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,11 +56,13 @@
 		264BB6DEBA23FCCAFBDBD791 /* AppMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMain.swift; sourceTree = "<group>"; };
 		29ABD96C310C7E1BED216C1A /* dummy.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dummy.json; sourceTree = "<group>"; };
 		3E1A92230219011BBA14175B /* EventPreview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventPreview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DB7E31826381EFEF25A5FFC /* Domain */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Domain; path = ../../Core/Domain; sourceTree = "<group>"; };
 		4F2B90AE9104DDD6AFDBD742 /* EventPreviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventPreviewTests.swift; sourceTree = "<group>"; };
 		758F968942DDF3BF40EBC0E1 /* EventPreview-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "EventPreview-Info.plist"; sourceTree = "<group>"; };
 		7801ACFB50F992587CEA3284 /* EventPreviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventPreviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		976C04E8F1E4F8447E6D75A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4FFCEEC9E1B359E7890A91F /* EventPreviewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "EventPreviewTests-Info.plist"; sourceTree = "<group>"; };
+		BD1384452094729B78CDBA38 /* Platform */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Platform; path = ../../Core/Platform; sourceTree = "<group>"; };
 		CF75D75AF540FF0AE354CB7D /* TuistBundle+EventPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+EventPreview.swift"; sourceTree = "<group>"; };
 		DB84F0D3411DD2329B1B85FB /* Preview.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Preview.entitlements; sourceTree = "<group>"; };
 		EF9E37570D9B40995B12B336 /* TuistAssets+EventPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+EventPreview.swift"; sourceTree = "<group>"; };
@@ -70,6 +74,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A141D4EE7C9F6D870B80274A /* Event in Frameworks */,
+				3455624CD81BA34002E0D2F9 /* Platform in Frameworks */,
+				FC66BF38D91C87E829303137 /* Domain in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,6 +164,8 @@
 				CCE241A4088C469ABBC7BD15 /* Frameworks */,
 				1610CFE8862BED618B595105 /* Products */,
 				2247EDD5728A07C9601463B7 /* Event */,
+				BD1384452094729B78CDBA38 /* Platform */,
+				4DB7E31826381EFEF25A5FFC /* Domain */,
 			);
 			sourceTree = "<group>";
 		};
@@ -201,6 +209,8 @@
 			name = EventPreview;
 			packageProductDependencies = (
 				E8985DCC9C5D6EA5EE34E3D1 /* Event */,
+				DEF50BCAA9ED92026BDE6C24 /* Platform */,
+				621A53DB1D485DAB39CF5AA6 /* Domain */,
 			);
 			productName = EventPreview;
 			productReference = 3E1A92230219011BBA14175B /* EventPreview.app */;
@@ -560,6 +570,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		621A53DB1D485DAB39CF5AA6 /* Domain */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Domain;
+		};
+		DEF50BCAA9ED92026BDE6C24 /* Platform */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Platform;
+		};
 		E8985DCC9C5D6EA5EE34E3D1 /* Event */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Event;

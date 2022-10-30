@@ -49,7 +49,9 @@ let project: Project = .init(
   name: "MyApp",
   organizationName: "myapp",
   packages: [
-    .local(path: "../Feature/Authencation"),
+    .local(path: "../Core/Platform"),
+    .local(path: "../Core/Domain"),
+    .local(path: "../Feature/Authentication"),
     .local(path: "../Feature/Dashboard"),
     .local(path: "../Feature/Me"),
     .local(path: "../Feature/Event"),
@@ -61,7 +63,9 @@ let project: Project = .init(
 extension Collection where Element == TargetDependency {
   public static var `default`: [TargetDependency] {
     [
-      .package(product: "Authencation"),
+      .package(product: "Platform"),
+      .package(product: "Domain"),
+      .package(product: "Authentication"),
       .package(product: "Dashboard"),
       .package(product: "Me"),
       .package(product: "Event"),

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A60772386A8493B936E2D00 /* Domain in Frameworks */ = {isa = PBXBuildFile; productRef = 5207A805FEEA822A29670D06 /* Domain */; };
 		2C02871259844F55479AFF51 /* AppMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDA00EBD7AF21323C587410 /* AppMain.swift */; };
 		50D13B62FB5A20DEF049AFBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1D352344F2DFA24B18E6D72 /* Assets.xcassets */; };
 		6469CC562815806E7F124620 /* dummy.json in Resources */ = {isa = PBXBuildFile; fileRef = FE878B79A03DBD1DA8EFE1B8 /* dummy.json */; };
@@ -14,6 +15,7 @@
 		C099EAAA71B5CE53264436BD /* TuistAssets+DashboardPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B55A80FFEA60DF4D0BA30F /* TuistAssets+DashboardPreview.swift */; };
 		CD47D87C41166EA0859075A8 /* Dashboard in Frameworks */ = {isa = PBXBuildFile; productRef = B0B1F18699DC12EDD92C7C81 /* Dashboard */; };
 		F5C988EB497D116F5CA2B789 /* TuistBundle+DashboardPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8741A16368E01A57E2CDF65E /* TuistBundle+DashboardPreview.swift */; };
+		FAA3B01C6C340CF7411AEBE2 /* Platform in Frameworks */ = {isa = PBXBuildFile; productRef = 0E81A5DB6F521C4BD31ABD8F /* Platform */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,9 +59,11 @@
 		7D51DBFDD3423F2BF3866528 /* DashboardPreview-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DashboardPreview-Info.plist"; sourceTree = "<group>"; };
 		8741A16368E01A57E2CDF65E /* TuistBundle+DashboardPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+DashboardPreview.swift"; sourceTree = "<group>"; };
 		937EB3A81878090FB0846E23 /* DashboardPreview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DashboardPreview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D5580D6528E1DEC4AF128DD /* Domain */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Domain; path = ../../Core/Domain; sourceTree = "<group>"; };
 		CCDA00EBD7AF21323C587410 /* AppMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMain.swift; sourceTree = "<group>"; };
 		D3E32B7961E93E24436CA215 /* DashboardPreviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardPreviewTests.swift; sourceTree = "<group>"; };
 		F1D352344F2DFA24B18E6D72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAC6E9320F1185F2C1F44A2F /* Platform */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Platform; path = ../../Core/Platform; sourceTree = "<group>"; };
 		FE878B79A03DBD1DA8EFE1B8 /* dummy.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dummy.json; sourceTree = "<group>"; };
 		FF879B4E2317FDFF42FA0258 /* DashboardPreviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DashboardPreviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -70,6 +74,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD47D87C41166EA0859075A8 /* Dashboard in Frameworks */,
+				FAA3B01C6C340CF7411AEBE2 /* Platform in Frameworks */,
+				2A60772386A8493B936E2D00 /* Domain in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,6 +129,8 @@
 				0B84623EFFF060A7BAAA65AB /* Frameworks */,
 				D7A97218532F8FED92892ED3 /* Products */,
 				2C7DE96BF8B41D206737677E /* Dashboard */,
+				FAC6E9320F1185F2C1F44A2F /* Platform */,
+				9D5580D6528E1DEC4AF128DD /* Domain */,
 			);
 			sourceTree = "<group>";
 		};
@@ -220,6 +228,8 @@
 			name = DashboardPreview;
 			packageProductDependencies = (
 				B0B1F18699DC12EDD92C7C81 /* Dashboard */,
+				0E81A5DB6F521C4BD31ABD8F /* Platform */,
+				5207A805FEEA822A29670D06 /* Domain */,
 			);
 			productName = DashboardPreview;
 			productReference = 937EB3A81878090FB0846E23 /* DashboardPreview.app */;
@@ -560,6 +570,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		0E81A5DB6F521C4BD31ABD8F /* Platform */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Platform;
+		};
+		5207A805FEEA822A29670D06 /* Domain */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Domain;
+		};
 		B0B1F18699DC12EDD92C7C81 /* Dashboard */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Dashboard;

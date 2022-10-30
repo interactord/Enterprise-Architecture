@@ -1,28 +1,27 @@
-// swift-tools-version: 5.7
+// swift-tools-version:5.5
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
 
 let package = Package(
-  name: "Me",
+  name: "Platform",
   platforms: [.iOS(.v15)],
   products: [
     .library(
-      name: "Me",
-      targets: ["Me"]),
+      name: "Platform",
+      targets: ["Platform"]),
+
   ],
   dependencies: [
-    .package(path: "../../Core/Domain"),
+    .package(path: "../Domain"),
   ],
   targets: [
     .target(
-      name: "Me",
+      name: "Platform",
       dependencies: [
-        "Domain",
-      ],
-      resources: [
+        "Domain"
       ]),
     .testTarget(
-      name: "MeTests",
-      dependencies: ["Me"]),
+      name: "PlatformTests",
+      dependencies: ["Platform"]),
   ])

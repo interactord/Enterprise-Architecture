@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		16A6EE1165575A0758911775 /* Authencation in Frameworks */ = {isa = PBXBuildFile; productRef = 1BC24E03C1505AED27A91DCE /* Authencation */; };
-		1707D55D22626C79F0198848 /* Dashboard in Frameworks */ = {isa = PBXBuildFile; productRef = 4A5B4B9756F44C95273E3526 /* Dashboard */; };
+		16A6EE1165575A0758911775 /* Platform in Frameworks */ = {isa = PBXBuildFile; productRef = 9C11232FC47297C92D6A39F4 /* Platform */; };
+		1707D55D22626C79F0198848 /* Domain in Frameworks */ = {isa = PBXBuildFile; productRef = BC9D0DC179D53AA61C306679 /* Domain */; };
 		2D7CC64414C4BF7EF45EA60D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D66FC8546D89F01865FD6DB7 /* Assets.xcassets */; };
-		30851B6B0058B6B4B8CF8537 /* Authencation in Frameworks */ = {isa = PBXBuildFile; productRef = 13102E7DED9B08DC82513E88 /* Authencation */; };
+		30851B6B0058B6B4B8CF8537 /* Platform in Frameworks */ = {isa = PBXBuildFile; productRef = 7BB61822AAE204588F2C16DC /* Platform */; };
 		3202D5FAC3C6903D53291F60 /* TuistBundle+MyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4409FFC9FAA7B8559ED54DB5 /* TuistBundle+MyApp.swift */; };
-		37BA505628129D0C7446DEE8 /* Dashboard in Frameworks */ = {isa = PBXBuildFile; productRef = 7E6E03A43BD50E16BF061CDA /* Dashboard */; };
+		37BA505628129D0C7446DEE8 /* Domain in Frameworks */ = {isa = PBXBuildFile; productRef = B1CE241C2DB83B4646A6517E /* Domain */; };
+		49BAB2F8F378F8C89DAABD95 /* Me in Frameworks */ = {isa = PBXBuildFile; productRef = F8B5050D6FCCC0F896560429 /* Me */; };
 		537D46B34D7FD2AADF3DE40D /* AppMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579974D783AC0C20820CF6A8 /* AppMain.swift */; };
 		5568806B19407DDB79B28BEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D66FC8546D89F01865FD6DB7 /* Assets.xcassets */; };
+		6522472362798C01456FB4FD /* Event in Frameworks */ = {isa = PBXBuildFile; productRef = 36E00568097C02BC05008449 /* Event */; };
 		67A242A0E2507ADC6E64AE21 /* MyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B0CC3E1DBC912E97360ED2 /* MyAppTests.swift */; };
 		7F056AF9FC7E8AFCA133794C /* AppMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579974D783AC0C20820CF6A8 /* AppMain.swift */; };
-		8C930B1DEF300ABDA25B674A /* Event in Frameworks */ = {isa = PBXBuildFile; productRef = E56B5CEF78A1D35217C0F799 /* Event */; };
+		7F9EF715DB0B82381841706B /* Event in Frameworks */ = {isa = PBXBuildFile; productRef = E56B5CEF78A1D35217C0F799 /* Event */; };
+		8C930B1DEF300ABDA25B674A /* Dashboard in Frameworks */ = {isa = PBXBuildFile; productRef = 7E6E03A43BD50E16BF061CDA /* Dashboard */; };
+		91C078A8C0681F2613F5BAF2 /* Me in Frameworks */ = {isa = PBXBuildFile; productRef = 07F37D385925AED8692B1FDC /* Me */; };
 		A096284BD43E55E10D4A1B0C /* dummy.json in Resources */ = {isa = PBXBuildFile; fileRef = D9702561F04D229539D88029 /* dummy.json */; };
-		A2A6E27D6CD5B25EDE3523DB /* Me in Frameworks */ = {isa = PBXBuildFile; productRef = F8B5050D6FCCC0F896560429 /* Me */; };
+		A2A6E27D6CD5B25EDE3523DB /* Authentication in Frameworks */ = {isa = PBXBuildFile; productRef = AD4430928E41013C561DCFF4 /* Authentication */; };
 		A2AAB95EB72DFA9669398B1E /* TuistBundle+MyAppQA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0E87BDBE13427B5EE9340B /* TuistBundle+MyAppQA.swift */; };
-		C49786544E6C62EEE318B132 /* Event in Frameworks */ = {isa = PBXBuildFile; productRef = 36E00568097C02BC05008449 /* Event */; };
+		C49786544E6C62EEE318B132 /* Dashboard in Frameworks */ = {isa = PBXBuildFile; productRef = 4A5B4B9756F44C95273E3526 /* Dashboard */; };
 		D57BC4027FBBC472C73F6DCC /* TuistAssets+MyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543ACB84DA77BE4DA91E0269 /* TuistAssets+MyApp.swift */; };
-		ED6CC595E8E2A1C9F176E34C /* Me in Frameworks */ = {isa = PBXBuildFile; productRef = 07F37D385925AED8692B1FDC /* Me */; };
+		ED6CC595E8E2A1C9F176E34C /* Authentication in Frameworks */ = {isa = PBXBuildFile; productRef = 29FB3A6447125EB639669696 /* Authentication */; };
 		F63138265440D442A8AD21A1 /* TuistAssets+MyAppQA.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3B1303DA727A573B7B3F0F /* TuistAssets+MyAppQA.swift */; };
 		FC7443AE0A493ED0FE7F1574 /* dummy.json in Resources */ = {isa = PBXBuildFile; fileRef = D9702561F04D229539D88029 /* dummy.json */; };
 /* End PBXBuildFile section */
@@ -72,9 +76,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		06B2759024257507F0016656 /* Domain */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Domain; path = ../Core/Domain; sourceTree = "<group>"; };
 		087DF1F363A72629D1098FEE /* MyApp_QA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp_QA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1436F14D5B6638D0B850F5DA /* MyApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "MyApp-Info.plist"; sourceTree = "<group>"; };
-		16E7FAAD19569FFE2DBE3F7D /* Authencation */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Authencation; path = ../Feature/Authencation; sourceTree = "<group>"; };
 		1D7F703A28813E1BBC0FD4B8 /* Event */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Event; path = ../Feature/Event; sourceTree = "<group>"; };
 		1E8A27C0CB29F1F70981B6C9 /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4409FFC9FAA7B8559ED54DB5 /* TuistBundle+MyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+MyApp.swift"; sourceTree = "<group>"; };
@@ -84,12 +88,14 @@
 		7898A3B5F973861D6B6BD7C9 /* Dashboard */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Dashboard; path = ../Feature/Dashboard; sourceTree = "<group>"; };
 		8C1B10170FA67FC0392865F6 /* MyAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "MyAppTests-Info.plist"; sourceTree = "<group>"; };
 		8F0E87BDBE13427B5EE9340B /* TuistBundle+MyAppQA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+MyAppQA.swift"; sourceTree = "<group>"; };
+		91CF33DA8251713C07C417C0 /* Authentication */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Authentication; path = ../Feature/Authentication; sourceTree = "<group>"; };
 		9ABF6782ABC01F81C97578CE /* Application.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Application.entitlements; sourceTree = "<group>"; };
 		CE3B1303DA727A573B7B3F0F /* TuistAssets+MyAppQA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+MyAppQA.swift"; sourceTree = "<group>"; };
 		D66FC8546D89F01865FD6DB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9702561F04D229539D88029 /* dummy.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dummy.json; sourceTree = "<group>"; };
 		E6DD0069F2585A89776C0026 /* MyApp-QA-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "MyApp-QA-Info.plist"; sourceTree = "<group>"; };
 		E938AE10550CBA0C690F22C8 /* Me */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Me; path = ../Feature/Me; sourceTree = "<group>"; };
+		EF4D017CCB074298EE0977C9 /* Platform */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Platform; path = ../Core/Platform; sourceTree = "<group>"; };
 		FC726E0755C5019B014C4D66 /* MyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -105,10 +111,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16A6EE1165575A0758911775 /* Authencation in Frameworks */,
-				1707D55D22626C79F0198848 /* Dashboard in Frameworks */,
-				ED6CC595E8E2A1C9F176E34C /* Me in Frameworks */,
-				C49786544E6C62EEE318B132 /* Event in Frameworks */,
+				16A6EE1165575A0758911775 /* Platform in Frameworks */,
+				1707D55D22626C79F0198848 /* Domain in Frameworks */,
+				ED6CC595E8E2A1C9F176E34C /* Authentication in Frameworks */,
+				C49786544E6C62EEE318B132 /* Dashboard in Frameworks */,
+				91C078A8C0681F2613F5BAF2 /* Me in Frameworks */,
+				6522472362798C01456FB4FD /* Event in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,10 +124,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30851B6B0058B6B4B8CF8537 /* Authencation in Frameworks */,
-				37BA505628129D0C7446DEE8 /* Dashboard in Frameworks */,
-				A2A6E27D6CD5B25EDE3523DB /* Me in Frameworks */,
-				8C930B1DEF300ABDA25B674A /* Event in Frameworks */,
+				30851B6B0058B6B4B8CF8537 /* Platform in Frameworks */,
+				37BA505628129D0C7446DEE8 /* Domain in Frameworks */,
+				A2A6E27D6CD5B25EDE3523DB /* Authentication in Frameworks */,
+				8C930B1DEF300ABDA25B674A /* Dashboard in Frameworks */,
+				49BAB2F8F378F8C89DAABD95 /* Me in Frameworks */,
+				7F9EF715DB0B82381841706B /* Event in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,7 +167,9 @@
 				F8ECC462873AE0854A6A9DFE /* Project */,
 				5B0225F2DEA83930A42B73F6 /* Frameworks */,
 				FF89FD894BEFEC90C393D9C4 /* Products */,
-				16E7FAAD19569FFE2DBE3F7D /* Authencation */,
+				EF4D017CCB074298EE0977C9 /* Platform */,
+				06B2759024257507F0016656 /* Domain */,
+				91CF33DA8251713C07C417C0 /* Authentication */,
 				7898A3B5F973861D6B6BD7C9 /* Dashboard */,
 				E938AE10550CBA0C690F22C8 /* Me */,
 				1D7F703A28813E1BBC0FD4B8 /* Event */,
@@ -250,7 +262,9 @@
 			);
 			name = "MyApp-QA";
 			packageProductDependencies = (
-				13102E7DED9B08DC82513E88 /* Authencation */,
+				7BB61822AAE204588F2C16DC /* Platform */,
+				B1CE241C2DB83B4646A6517E /* Domain */,
+				AD4430928E41013C561DCFF4 /* Authentication */,
 				7E6E03A43BD50E16BF061CDA /* Dashboard */,
 				F8B5050D6FCCC0F896560429 /* Me */,
 				E56B5CEF78A1D35217C0F799 /* Event */,
@@ -293,7 +307,9 @@
 			);
 			name = MyApp;
 			packageProductDependencies = (
-				1BC24E03C1505AED27A91DCE /* Authencation */,
+				9C11232FC47297C92D6A39F4 /* Platform */,
+				BC9D0DC179D53AA61C306679 /* Domain */,
+				29FB3A6447125EB639669696 /* Authentication */,
 				4A5B4B9756F44C95273E3526 /* Dashboard */,
 				07F37D385925AED8692B1FDC /* Me */,
 				36E00568097C02BC05008449 /* Event */,
@@ -719,13 +735,9 @@
 			isa = XCSwiftPackageProductDependency;
 			productName = Me;
 		};
-		13102E7DED9B08DC82513E88 /* Authencation */ = {
+		29FB3A6447125EB639669696 /* Authentication */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = Authencation;
-		};
-		1BC24E03C1505AED27A91DCE /* Authencation */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = Authencation;
+			productName = Authentication;
 		};
 		36E00568097C02BC05008449 /* Event */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -735,9 +747,29 @@
 			isa = XCSwiftPackageProductDependency;
 			productName = Dashboard;
 		};
+		7BB61822AAE204588F2C16DC /* Platform */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Platform;
+		};
 		7E6E03A43BD50E16BF061CDA /* Dashboard */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Dashboard;
+		};
+		9C11232FC47297C92D6A39F4 /* Platform */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Platform;
+		};
+		AD4430928E41013C561DCFF4 /* Authentication */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Authentication;
+		};
+		B1CE241C2DB83B4646A6517E /* Domain */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Domain;
+		};
+		BC9D0DC179D53AA61C306679 /* Domain */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Domain;
 		};
 		E56B5CEF78A1D35217C0F799 /* Event */ = {
 			isa = XCSwiftPackageProductDependency;

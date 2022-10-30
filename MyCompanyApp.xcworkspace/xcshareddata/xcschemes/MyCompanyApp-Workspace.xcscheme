@@ -14,34 +14,6 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D1B4B1BC0E723196ABF7F75E"
-               BuildableName = "AuthencationPreview.app"
-               BlueprintName = "AuthencationPreview"
-               ReferencedContainer = "container:Project/Previews/AuthencationPreview/AuthencationPreview.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "04340A0343734F6853F5CF05"
-               BuildableName = "AuthencationPreviewTests.xctest"
-               BlueprintName = "AuthencationPreviewTests"
-               ReferencedContainer = "container:Project/Previews/AuthencationPreview/AuthencationPreview.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "B50FB9AA173B7FAFCD5470CF"
                BuildableName = "DashboardPreview.app"
                BlueprintName = "DashboardPreview"
@@ -172,16 +144,6 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "04340A0343734F6853F5CF05"
-               BuildableName = "AuthencationPreviewTests.xctest"
-               BlueprintName = "AuthencationPreviewTests"
-               ReferencedContainer = "container:Project/Previews/AuthencationPreview/AuthencationPreview.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "33BBDB1526F54E35D846E2C4"
                BuildableName = "DashboardPreviewTests.xctest"
                BlueprintName = "DashboardPreviewTests"
@@ -234,10 +196,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D1B4B1BC0E723196ABF7F75E"
-            BuildableName = "AuthencationPreview.app"
-            BlueprintName = "AuthencationPreview"
-            ReferencedContainer = "container:Project/Previews/AuthencationPreview/AuthencationPreview.xcodeproj">
+            BlueprintIdentifier = "B50FB9AA173B7FAFCD5470CF"
+            BuildableName = "DashboardPreview.app"
+            BlueprintName = "DashboardPreview"
+            ReferencedContainer = "container:Project/Previews/DashboardPreview/DashboardPreview.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -251,10 +213,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D1B4B1BC0E723196ABF7F75E"
-            BuildableName = "AuthencationPreview.app"
-            BlueprintName = "AuthencationPreview"
-            ReferencedContainer = "container:Project/Previews/AuthencationPreview/AuthencationPreview.xcodeproj">
+            BlueprintIdentifier = "B50FB9AA173B7FAFCD5470CF"
+            BuildableName = "DashboardPreview.app"
+            BlueprintName = "DashboardPreview"
+            ReferencedContainer = "container:Project/Previews/DashboardPreview/DashboardPreview.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

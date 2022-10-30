@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		168654CB249C2867D3468334 /* Platform in Frameworks */ = {isa = PBXBuildFile; productRef = 27D8BD2833B2F7EF15599DA0 /* Platform */; };
+		27C57E5119CDF30DE2174651 /* Domain in Frameworks */ = {isa = PBXBuildFile; productRef = 3BD5144C2E3250631476AC0F /* Domain */; };
 		8968654F1FE2FC5A3EFC12C4 /* AppMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48927D456063DCE397A52AC2 /* AppMain.swift */; };
 		8B56970F27D48F8F92D94D59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C96F962E8F1F5B4863F5777C /* Assets.xcassets */; };
 		8EB541A43DE974E935AEAD30 /* TuistAssets+MePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025435040F8A809430322883 /* TuistAssets+MePreview.swift */; };
@@ -51,6 +53,7 @@
 
 /* Begin PBXFileReference section */
 		025435040F8A809430322883 /* TuistAssets+MePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+MePreview.swift"; sourceTree = "<group>"; };
+		1523C6592637A0A055267025 /* Domain */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Domain; path = ../../Core/Domain; sourceTree = "<group>"; };
 		1532F3C2C1DC82078FA76B2A /* MePreview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MePreview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F3E46B45B354F56E29F4601 /* Me */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Me; path = ../../Feature/Me; sourceTree = "<group>"; };
 		35477BC2256E99400050D244 /* MePreviewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "MePreviewTests-Info.plist"; sourceTree = "<group>"; };
@@ -61,6 +64,7 @@
 		86D1FAE3F255621297E95143 /* MePreviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MePreviewTests.swift; sourceTree = "<group>"; };
 		8C5E4105BBDB6B850E3536BE /* MePreviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MePreviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C96F962E8F1F5B4863F5777C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0DB7AA9A7D90E78067D537E /* Platform */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Platform; path = ../../Core/Platform; sourceTree = "<group>"; };
 		F1719A96FB463518FB4D2564 /* TuistBundle+MePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+MePreview.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,6 +81,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				98452A8BAB81F5AD2EEAAFE9 /* Me in Frameworks */,
+				168654CB249C2867D3468334 /* Platform in Frameworks */,
+				27C57E5119CDF30DE2174651 /* Domain in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +167,8 @@
 				57D4295BD1967EBE676222D3 /* Frameworks */,
 				5B7154F5174687CFC28910B9 /* Products */,
 				1F3E46B45B354F56E29F4601 /* Me */,
+				F0DB7AA9A7D90E78067D537E /* Platform */,
+				1523C6592637A0A055267025 /* Domain */,
 			);
 			sourceTree = "<group>";
 		};
@@ -201,6 +209,8 @@
 			name = MePreview;
 			packageProductDependencies = (
 				C8A347194D594113BE2F6A13 /* Me */,
+				27D8BD2833B2F7EF15599DA0 /* Platform */,
+				3BD5144C2E3250631476AC0F /* Domain */,
 			);
 			productName = MePreview;
 			productReference = 1532F3C2C1DC82078FA76B2A /* MePreview.app */;
@@ -560,6 +570,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		27D8BD2833B2F7EF15599DA0 /* Platform */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Platform;
+		};
+		3BD5144C2E3250631476AC0F /* Domain */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Domain;
+		};
 		C8A347194D594113BE2F6A13 /* Me */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Me;

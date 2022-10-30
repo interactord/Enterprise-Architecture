@@ -11,9 +11,6 @@
          location = "group:Previews"
          name = "Previews">
          <FileRef
-            location = "group:AuthencationPreview/AuthencationPreview.xcodeproj">
-         </FileRef>
-         <FileRef
             location = "group:DashboardPreview/DashboardPreview.xcodeproj">
          </FileRef>
          <FileRef
