@@ -1,4 +1,4 @@
 import Foundation
 
-public enum SignInEntity {
+public enum SignInEntity: Equatable {
 }

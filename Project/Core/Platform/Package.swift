@@ -19,7 +19,7 @@ let package = Package(
     .target(
       name: "Platform",
       dependencies: [
-        "Domain"
+        "Domain",
       ]),
     .testTarget(
       name: "PlatformTests",
