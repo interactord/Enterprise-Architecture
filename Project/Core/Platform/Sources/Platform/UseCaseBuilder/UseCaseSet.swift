@@ -2,7 +2,7 @@ import Domain
 import Foundation
 
 public struct UseCaseSet {
-  let signUp: SignUpUseCase
-  let signIn: SignInUseCase
-  let user: UserUseCase
+  public let signUp: SignUpUseCase
+  public let signIn: SignInUseCase
+  public let user: UserUseCase
 }

@@ -18,6 +18,12 @@ public enum CompositeError: Error, LocalizedError {
   }
 }
 
+extension CompositeError: Equatable {
+  public static func == (lhs: Self, rhs: Self) -> Bool {
+    return lhs.errorDescription == rhs.errorDescription
+  }
+}
+
 extension CompositeError {
   public struct ResponseError: Codable, Equatable {
     public let code: Int

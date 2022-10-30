@@ -3,18 +3,15 @@ import SwiftUI
 
 @main
 struct AppMain: App {
+  @UIApplicationDelegateAdaptor var delegate: AppDelegate
 
-  let me = Me()
+  var sideEffect: ProfileSideEffect {
+    .init(userUseCase: delegate.sideEffect.userUseCase)
+  }
 
   var body: some Scene {
     WindowGroup {
-      NavigationView {
-        VStack {
-          Spacer()
-          Text("Me Preview")
-          Spacer()
-        }
-      }
+      ProfilePage(store: .init(initialState: .init(), reducer: ProfileCore(sideEffect: sideEffect)))
     }
   }
 }

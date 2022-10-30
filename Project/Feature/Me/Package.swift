@@ -13,12 +13,18 @@ let package = Package(
   ],
   dependencies: [
     .package(path: "../../Core/Domain"),
+    .package(path: "../../Core/ArchitectureSupport"),
+    .package(
+      url: "https://github.com/pointfreeco/swift-composable-architecture",
+      .upToNextMajor(from: "0.44.1")),
   ],
   targets: [
     .target(
       name: "Me",
       dependencies: [
+        .product(name: "ComposableArchitecture", package: "swift-composable-architecture"),
         "Domain",
+        "ArchitectureSupport",
       ],
       resources: [
       ]),
