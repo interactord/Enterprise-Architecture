@@ -1,20 +1,19 @@
-import Authentication
 import SwiftUI
+import LinkNavigator
 
 @main
 struct AppMain: App {
 
-  let auth = Authentication()
+  @UIApplicationDelegateAdaptor var delegate: AppDelegate
+
+  var navigator: LinkNavigator {
+    delegate.linkNavigator
+  }
 
   var body: some Scene {
     WindowGroup {
-      NavigationView {
-        VStack {
-          Spacer()
-          Text("Dashboard Preview")
-          Spacer()
-        }
-      }
+      navigator
+        .launch(paths: ["dashboard"], items: [:])
     }
   }
 }

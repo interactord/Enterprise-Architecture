@@ -17,12 +17,16 @@ let package = Package(
     .package(
       url: "https://github.com/pointfreeco/swift-composable-architecture",
       .upToNextMajor(from: "0.44.1")),
+    .package(
+          url: "https://github.com/interactord/LinkNavigator",
+          .upToNextMajor(from: "0.3.0")),
   ],
   targets: [
     .target(
       name: "Event",
       dependencies: [
         .product(name: "ComposableArchitecture", package: "swift-composable-architecture"),
+        "LinkNavigator",
         "Domain",
         "ArchitectureSupport",
       ],
